@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <!-- Cielo de la tarjeta «Ruralidad — Cauca» (el mismo de cauca-back.svg: degradado azul, resplandor del sol, nubes y aves).
+       Va detrás de cauca-tarjeta.webp, a la que se le quita su cielo gris al cargarla (js/card-art.js). Mismo tamaño que esa imagen (1600 × 1000). -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fb8cf"/><stop offset=".45" stop-color="#cfe3d6"/><stop offset=".75" stop-color="#f8e2b4"/></linearGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#fff7d6"/><stop offset=".35" stop-color="#ffe9a8" stop-opacity=".8"/><stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1170" cy="330" r="280" fill="url(#sun)"/>
+  <g fill="#fff" opacity=".8" filter="url(#soft)"><ellipse cx="280" cy="170" rx="160" ry="26"/><ellipse cx="385" cy="146" rx="96" ry="24"/><ellipse cx="920" cy="120" rx="180" ry="22"/><ellipse cx="1420" cy="220" rx="118" ry="20"/></g>
+  <g fill="none" stroke="#3a4a52" stroke-width="3" stroke-linecap="round"><path d="M330 236 q14 -14 28 0 q14 -14 28 0"/><path d="M436 274 q10 -10 20 0 q10 -10 20 0"/><path d="M1290 78 q12 -12 24 0 q12 -12 24 0"/></g>
+</svg>
